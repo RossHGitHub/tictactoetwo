@@ -18,6 +18,13 @@ html{
     justify-content: center;
 }
 
+.activePlayer{
+    font-size: 20px;
+    color: blue;
+    font-weight: 1000;
+    letter-spacing: 5px;
+}
+
 #board{
     margin: 40px 0 40px 0;
     height: 500px;
@@ -29,6 +36,32 @@ html{
     gap: 2px;
 }
 
-.placement{
+.tile{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.playerX{
+    color: brown;
+}
+
+.playerO{
+    color: blueviolet;
+}
+
+#clear{
+    width: 140px;
+    height: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+.announcer{
+    height: 40px;
 }
